@@ -17,8 +17,8 @@ class JumpStartPlugin extends BasePlugin
 
     /**
      * Added in 2.5, this text displays on the Plugins page.
-     * @method getDescription
-     * @return [type]         [description]
+     *
+     * @return string
      */
     public function getDescription()
     {
