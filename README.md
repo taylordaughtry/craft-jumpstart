@@ -1,3 +1,5 @@
+![JumpStart](http://i.imgur.com/xmZfxwz.png)
+
 # JumpStart
 
 JumpStart is a well-structured starter package for plugin development. It
