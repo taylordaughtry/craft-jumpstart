@@ -1,0 +1,16 @@
+{% extends "_layouts/cp" %}
+
+{% set title = "JumpStart"|t %}
+
+{% set tabs = {
+    first: { label: "Sample Tab"|t, url: url('jumpstart') },
+    second:    { label: "Another Sample Tab"|t, url: url('jumpstart/add') }
+} %}
+
+{% set crumbs = [
+    { label: "JumpStart"|t, url: url('jumpstart') },
+] %}
+
+{% set content %}
+    <p>Welcome to JumpStart. Start building!</p>
+{% endset %}
