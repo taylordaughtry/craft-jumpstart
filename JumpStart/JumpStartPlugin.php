@@ -87,7 +87,7 @@ class JumpStartPlugin extends BasePlugin
     public function getReleaseFeedUrl()
     {
         return 'https://raw.githubusercontent.com/' .
-        'taylordaughtry/jumpstart/master/releases.json';
+            'taylordaughtry/jumpstart/master/releases.json';
     }
 
     /**
