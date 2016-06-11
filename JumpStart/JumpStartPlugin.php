@@ -98,7 +98,7 @@ class JumpStartPlugin extends BasePlugin
      */
     public function getIconPath()
     {
-        return craft()->path->getPluginsPath().'jumpstart/resources/icon.svg';
+        return craft()->path->getPluginsPath() . 'jumpstart/resources/icon.svg';
     }
 
     /**
