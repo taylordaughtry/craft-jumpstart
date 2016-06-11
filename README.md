@@ -35,6 +35,9 @@ Use Plugin Settings if:
  - You need the setting to be validated
  - You need your plugin to run code when a setting's value changes.
 
+Also, remember that config files are completely optional; you don't need them to
+make a completely valid plugin.
+
 ### Retrieving and Overwriting Values
 
 You can retrieve values from your plugin's config file like this:
