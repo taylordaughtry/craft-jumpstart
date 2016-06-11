@@ -109,9 +109,9 @@ class JumpStartPlugin extends BasePlugin
      */
     public function getSettingsHtml()
     {
-        return craft()->templates->render('jumpstart/settings', [
+        return craft()->templates->render('jumpstart/settings', array(
             'settings' => $this->getSettings()
-        ]);
+        ));
     }
 
     /**
@@ -126,9 +126,9 @@ class JumpStartPlugin extends BasePlugin
      */
     protected function defineSettings()
     {
-        return [
+        return array(
             'sample_setting' => array(AttributeType::Mixed, 'default' => '')
-        ];
+        );
     }
 
     /**
