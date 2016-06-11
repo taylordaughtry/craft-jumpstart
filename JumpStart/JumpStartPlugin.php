@@ -49,7 +49,7 @@ class JumpStartPlugin extends BasePlugin
     }
 
     /**
-     * Self explanatory.
+     * Returns the name of the plugin's developer.
      *
      * @return string
      */
@@ -59,7 +59,7 @@ class JumpStartPlugin extends BasePlugin
     }
 
     /**
-     * Self explanatory.
+     * Returns the developer's URL. (Your GitHub profile, for example.)
      *
      * @return string
      */
@@ -134,7 +134,8 @@ class JumpStartPlugin extends BasePlugin
     /**
      * If your plugin needs its own item in the Navigation, set this to true. Be
      * Sure and update the icon-mask.svg file; it's the icon that shows next to
-     * your plugin name in the CP Navigation.
+     * your plugin name in the CP Navigation. Delete this if your plugin doesn't
+     * need a CP section.
      *
      * @return boolean
      */
