@@ -127,7 +127,7 @@ class JumpStartPlugin extends BasePlugin
     protected function defineSettings()
     {
         return array(
-            'sample_setting' => array(AttributeType::Mixed, 'default' => '')
+            'sampleSetting' => array(AttributeType::Mixed, 'default' => '')
         );
     }
 
