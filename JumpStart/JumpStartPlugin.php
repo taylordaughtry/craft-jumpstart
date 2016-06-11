@@ -16,7 +16,7 @@ class JumpStartPlugin extends BasePlugin
     }
 
     /**
-     * Added in 2.5, this text displays on the Plugins page.
+     * Added in 2.5, this text displays on the Plugins page
      *
      * @return string
      */
@@ -49,7 +49,7 @@ class JumpStartPlugin extends BasePlugin
     }
 
     /**
-     * Returns the name of the plugin's developer.
+     * Returns the name of the plugin's developer
      *
      * @return string
      */
@@ -69,7 +69,7 @@ class JumpStartPlugin extends BasePlugin
     }
 
     /**
-     * Creates a link to your docs on the Plugins page.
+     * Creates a link to your docs on the Plugins page
      *
      * @return string
      */
