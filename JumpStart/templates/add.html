@@ -3,8 +3,14 @@
 {% set title = 'JumpStart'|t %}
 
 {% set tabs = {
-    first: { label: 'Sample Tab'|t, url: url('jumpstart') },
-    second:    { label: 'Another Sample Tab'|t, url: url('jumpstart/new') }
+    first: {
+    	label: 'Sample Tab'|t,
+    	url: url('jumpstart')
+	},
+    second: {
+	    label: 'Another Sample Tab'|t,
+	    url: url('jumpstart/new')
+    }
 } %}
 
 {% set selectedTab = 'second' %}

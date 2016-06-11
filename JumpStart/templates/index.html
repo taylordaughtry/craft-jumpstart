@@ -3,12 +3,21 @@
 {% set title = 'JumpStart'|t %}
 
 {% set tabs = {
-    first: { label: 'Sample Tab'|t, url: url('jumpstart') },
-    second:    { label: 'Another Sample Tab'|t, url: url('jumpstart/add') }
+    first: {
+    	label: 'Sample Tab'|t,
+    	url: url('jumpstart')
+	},
+    second: {
+	    label: 'Another Sample Tab'|t,
+	    url: url('jumpstart/new')
+    }
 } %}
 
 {% set crumbs = [
-    { label: 'JumpStart'|t, url: url('jumpstart') },
+    {
+	    label: 'JumpStart'|t,
+	    url: url('jumpstart')
+    },
 ] %}
 
 {% set content %}
