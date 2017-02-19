@@ -54,7 +54,3 @@ plugin's name in their craft/config/ directory, ie:
 If you'd like to use an icon for your plugin, update the `icon.svg` file in
 `jumpstart/resources`. If your plugin will have its own CP tab, you'll need to
 also update the `icon-mask.svg`.
-
-# License
-
-Copyright 2016 [Caddis Interactive, LLC](https://www.caddis.co). Licensed under the [Apache License, Version 2.0](https://github.com/caddis/presto/blob/master/LICENSE).
